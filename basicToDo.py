@@ -58,6 +58,7 @@ class ToDo:
                 if item["name"] == idt:
                     del self[i]
                     return
+            click.echo("item not found")
 
 
 @click.group()
